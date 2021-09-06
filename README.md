@@ -1,14 +1,5 @@
 # TodoList(Javscript)
 
-## Index
-  - [Overview](#overview) 
-  - [Getting Started](#getting-started)
-  - [Authors](#authors)
-<!--  Other options to write Readme
-  - [Deployment](#deployment)
-  - [Used or Referenced Projects](Used-or-Referenced-Projects)
--->
-
 ## Overview
 <!-- Write Overview about this project -->
 ** 사용 기술 및 특징 **
