@@ -1,22 +1,16 @@
-const body = document.querySelector("body");
-
 const IMG_NUMBER = 3;
 
-function paintImage(imgNumber) {
-  const image = new Image();
-  image.src = `/src/images/${imgNumber + 1}.jfif`;
-  image.classList.add("bgImage");
-  body.appendChild(image);
-}
+const paintImage = (imgNumber) => {
+    const image = new Image();
+    image.src = `/src/images/${imgNumber + 1}.jfif`;
+    image.classList.add('bgImage');
+    document.querySelector('body').appendChild(image);
+};
 
-function genRandom() {
-  const number = Math.floor(Math.random() * IMG_NUMBER);
-  return number;
-}
+const getRandom = () => Math.floor(Math.random() * IMG_NUMBER);
 
-function init() {
-  const randomNumber = genRandom();
-  paintImage(randomNumber);
-}
+const initBG = () => {
+    paintImage(getRandom());
+};
 
-init();
+initBG();
